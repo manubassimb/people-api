@@ -17,7 +17,8 @@ docker compose -f compose.ci.yml up -d && open http://localhost:8111
 docker run -it -p 8080:8080 localhost:5000/people-api:1
 ```
 
-(Replace :1 with the correct build number/tag or latest.) 4. Test the API at:
+(Replace :1 with the correct build number/tag) 4. Test the API at:
+
 http://localhost:8080/
 http://localhost:8080/health
 http://localhost:8080/swagger
