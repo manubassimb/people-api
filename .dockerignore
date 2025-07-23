@@ -1,0 +1,17 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.vsidx
+*.db
+*.db-wal
+*.db-shm
+*.json
+.vscode/
+.git/
+.gitignore
+*.log
+Thumbs.db
+.DS_Store
+node_modules/
