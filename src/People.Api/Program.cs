@@ -13,7 +13,7 @@ builder.Services.AddValidatorsFromAssemblyContaining<CreatePersonDtoValidator>()
 builder.Services.AddValidatorsFromAssemblyContaining<UpdatePersonDtoValidator>();
 
 builder.Services.AddDbContext<Context>(options =>
-    options.UseInMemoryDatabase($"PeopleInMemoryDb-{Guid.NewGuid().ToString()}"));
+    options.UseInMemoryDatabase($"PeopleInMemoryDb"));
 
 var app = builder.Build();
 
